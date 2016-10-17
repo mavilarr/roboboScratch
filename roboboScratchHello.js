@@ -8,11 +8,18 @@
 	  return {status: 2, msg: 'Ready'};
 	};
 
+	ext.hello_block = function() {
+		
+	};
+
 	// Block and block menu descriptions
 	var descriptor = {
 		blocks: [
 			// Block type, block name, function name
-			[' ', 'hello_block', 'hello_block'],
+			[' ', 'cmd_block', 'hello_block'],
+			['w', 'cmd_block_wait', 'hello_block'],
+			['r', 'report_block', 'hello_block'],
+			['R', 'report_block_wait', 'hello_block'],
 		]
 	};
 
