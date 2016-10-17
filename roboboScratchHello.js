@@ -20,6 +20,7 @@
 			['w', 'cmd_block_wait', 'hello_block'],
 			['r', 'report_block', 'hello_block'],
 			['R', 'report_block_wait', 'hello_block'],
+			['h', 'hat_block', 'hello_block'],
 		]
 	};
 
