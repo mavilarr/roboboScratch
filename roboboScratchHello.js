@@ -21,7 +21,7 @@
 			['r', 'report_block', 'hello_block'],
 			['R', 'report_block_wait', 'hello_block'],
 			['h', 'hat_block', 'hello_block'],
-			//['R', 'repe', 'hello_block'],
+			['b', 'bool_report_block', 'hello_block'],
 		]
 	};
 
